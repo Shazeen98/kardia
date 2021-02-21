@@ -1,0 +1,51 @@
+.log-in{
+    color:blue;
+    font-size: 42px;
+    margin-left: 800px;
+    margin-top: -495px;
+}
+
+
+.log-text{
+    font-size: 18px;
+    color: black;
+    font-weight:bold;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.list1{
+    margin-left: 800px;
+    margin-top: 10px;
+
+}
+
+.formBasicEmail{
+    color: blue;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+}
+label{
+    color: blue;
+    font: 1em sans-serif;
+    font-size: 20px;
+}
+
+button{
+
+    width: 300px;
+    height: 35px;
+    color:white;
+    background-color: blue;
+
+}
+
+
+
+
+.image2{
+    margin-left: 15px;
+}
+
