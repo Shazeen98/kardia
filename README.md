@@ -14,7 +14,7 @@ Some facts:
 -  It is 31 percent of all global deaths
 - Cardiovascular Diseases are the number one cause of death globally
 
-*Cardiovascular health is important!*
+**Cardiovascular health is important!**
 
 ## Usage
 
