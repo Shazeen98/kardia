@@ -38,10 +38,10 @@ We are team Int Elligence, a group of undergraduate students from the Informatic
 ### Authors
 
 *our members*
-- Mohammed Shazeen
-- Thresha Herath
-- Yeheni Dahanayake
+
 - Kalani Liyanagama
 - Madhuka Pulsara
 - Malitha Pahasara
-
+- Mohammed Shazeen
+- Thresha Herath
+- Yeheni Dahanayake
