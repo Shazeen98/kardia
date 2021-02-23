@@ -1,47 +1,70 @@
-# Kardia
+# Getting Started with Create React App
 
-Machine Learning to Predict the Mortality of Heart Failure Patients
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## About The Project
+## Available Scripts
 
-A supporting tool for doctors and heart failure patients to predict mortality of heart failure patients.
-This platform makes use of data science and machine learning algorithms capable of classifying heart failure patient will survive or not.This allows the corresponding medical staff and patients to risk stratification and assume mortality supported by the artificial intelligent system, so they can follow-up the corresponding treatments.
+In the project directory, you can run:
 
-### Motivation
+### `npm start`
 
-Some facts:
-- Approximately 18 million people dies globally each year from Cardiovascular diseases, mainly exhibit as Heart failure
--  It is 31 percent of all global deaths
-- Cardiovascular Diseases are the number one cause of death globally
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-**Cardiovascular health is important!**
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Usage
+### `npm test`
 
-### Dataset 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-The dataset used for this project is the one published in the "[Survival analysis of heart failure patients A case study](https://plos.figshare.com/articles/dataset/Survival_analysis_of_heart_failure_patients_A_case_study/5227684/1)" by Tanvir Ahmad, Assia Munir, Sajjad Haider Bhatti, Muhammad Aftab, Muhammad Ali Raza.
+### `npm run build`
 
-It contains 299 heart failure patients records who were aged 40 years or above, having LVSD and falling in NYHA class III and IV. All the information were taken from blood reports and physician’s notes that patients were admitted to Institute of Cardiology and Allied hospital Faisalabad, Pakistan. The CSV file of dataset contains 13 fields inc.;
-- Follow up time
-- Age
-- Ejection Fraction
-- Serum Creatinine
-- Gender
-- Smoking status
-- Blood Pressure
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Int Elligence 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-We are team Int Elligence, a group of undergraduate students from the Informatics Institute of Technology (IIT). This project **"Kardia"** is carried out as part of our research conducted for the Software Development Group Project for the BEng (Hons) Software Engineering at Informatics Institute of Technology, Sri Lanka, affiliated with the University of Westminster, UK.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Authors
+### `npm run eject`
 
-*our members*
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- [Kalani Liyanagama](https://github.com/kalaniliyanagama)
-- [Madhuka Pulsara](https://github.com/madhukapulsara)
-- [Malitha Pahasara](https://github.com/malithapahasara)
-- [Mohammed Shazeen](https://github.com/Shazeen98)
-- [Thresha Herath](https://github.com/ThreshaK)
-- [Yeheni Dahanayake](https://github.com/Yeheni99)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
