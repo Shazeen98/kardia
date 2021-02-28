@@ -1,51 +1,120 @@
 .log-in{
-    color:blue;
-    font-size: 42px;
-    margin-left: 800px;
-    margin-top: -495px;
+    color:#0F43AA;
+    font-size: 62px;
+    margin-left: 1100px;
+    margin-top: -970px;
+}
+
+.cont{
+    margin-top: -70px;
+    margin-left: 400px;
+    
 }
 
 
 .log-text{
-    font-size: 18px;
+    font-size: 28px;
     color: black;
     font-weight:bold;
-    margin-left: 800px;
-    margin-top: 10px;
+    margin-left: 1100px;
+    margin-top: 20px;
 }
 .list1{
-    margin-left: 800px;
+    margin-left: 700px;
+    margin-top: 90px;
+    
+
+}
+
+
+.formBasicEmail{
+    color:#0F43AA;
+}
+
+.email-txt{
+    width: 710px;
+    height: 81.33px;
+    font-size: 28px;
+    border-radius: 0.8em;
+    border-color:#0F43AA ;
+
+}
+
+.pswd-txt{
+    width: 710px;
+    height: 81.33px;
+    font-size: 28px;
+    border-radius: 0.8em;
+    border-color:#0F43AA ;
+}
+
+.lbl{
+    color: #0F43AA;
+    font: 1em sans-serif;
+    font-size: 28px;
+    margin-top: -100px;
+
+}
+
+.btn-sign{
+
+    width: 710px;
+    height: 81.33px;
+    color:white;
+    background-color:#0F43AA;
+    font-size: 28px;
+    border-radius: 0.8em;
+
+}
+.p-reg{
+    font-size: 28px;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.image2{
+    margin-left: -80px;
+}
+.fb-sign-in{
+    display: inline-block;
+    margin-left: 1100px;
+   margin-top: 55px;
+    width: 710px;
+    height: 81.33px;
+    color:white;
+    background-color:#0F43AA;
+    font-size: 28px;
+    border-radius: 0.8em;
+
+
+}
+
+.or-text1{
+    margin-left: 1104px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+
+.form-start{
+    width : 1920px;
+    height : 1080px;
+
+}
+.fa-times{
+    color: black;
+    font-size: 3rem;
+    margin-left: 1800px;
     margin-top: 10px;
 
 }
 
-.formBasicEmail{
-    color: blue;
-}
+.create-acc{
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+   
 
-input{
-    width: 300px;
-    height: 35px;
-}
-label{
-    color: blue;
-    font: 1em sans-serif;
-    font-size: 20px;
-}
-
-button{
-
-    width: 300px;
-    height: 35px;
-    color:white;
-    background-color: blue;
-
-}
-
-
-
-
-.image2{
-    margin-left: 15px;
 }
 
