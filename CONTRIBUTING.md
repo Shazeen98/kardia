@@ -5,13 +5,19 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 **How Can I Contribute?**
 - Reporting Bugs
+
 This section guides you through submitting a bug report for Kardia. Following these guidelines helps us understand your report, reproduce the behavior.
 
 After you've determined which repository your bug is related to, create an issue on that repository and provide the following information.
+
 1.Use a clear and descriptive title for the issue to identify the problem.
+
 2.A quick summary and/or background.
+
 3.Steps to reproduce. Be specific!
+
 4.Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+
 5.Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem.
 
 - Pull Request Process
