@@ -1,12 +1,13 @@
 .topic-container{
     color:#986ED6;
     font-size: 75px;
-    margin-top: 70px;
+    margin-top: -70px;
     margin-left: 25px;
     margin-bottom: 25px;
     width: 100%;
     align-items: center;
     align-content: center;
+    flex-direction: column;
     
     
 
@@ -14,17 +15,20 @@
 .topic-container{
    
     width: 100%;
+    margin-top: -580px;
+    margin-left: 116px;
     
 }
+.middle-container{
+    width: 1920px;
+    height: 1080px;
+}
 
-img{
-    margin-top: 10px;
-    
-    width: 600px;
-    height: 600px;
+.image{
+    margin-top: -540px;
     opacity: 1;  
-    margin-left: 900px;
-    
+    margin-left: 542px;
+    margin-right: 222px;
     }
 
 .topic{
@@ -38,11 +42,15 @@ font-size: 30px;
 text-align: left;
 color: #5691E9;
 font-family: Neue Montreal;
-margin-left: 25px;
+margin-left: 116px;
+margin-top: 85x;
 
 }
 
-Button{
-    
-    margin-left: 25px;
+.btn--primary{
+    margin-top: 10px;
+    margin-left: 116px;
+    width: 197px;
+    height: 62px;
+   
 }
