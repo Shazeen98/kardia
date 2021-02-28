@@ -1,0 +1,98 @@
+.people1{
+    width: 1920px;
+    height: 2216px;
+    background-color: #E0E2EE;
+}
+
+.num1{
+    margin-left: 347px;
+    margin-right: 1195px;
+    width: 153px;
+    height: 180px;
+    color: #DF4835;
+    font-size: 180px;
+    text-align: left;
+    margin-top: 133px;
+}
+
+.people2{
+    font-size: 34px;
+    margin-left: 190px;
+    text-align: left;
+    width: 693px;
+    height: 142px;
+}
+
+.num2{
+    color:#DF4835 ;
+    font-size: 180px;
+    margin-left: 623px;
+    width:372px;
+    height: 150px;
+    margin-top: 173px;
+}
+
+.people3{
+    font-size: 34px;
+    margin-left: 650px;
+    text-align: left;
+    margin-top: 35px;
+
+
+}
+
+.img4{
+    width:788px;
+    height:746px;
+    margin-left: 1074px;
+    margin-top: -700px;
+}
+
+.people4{
+    font-size: 28px;
+    text-align: left;
+    width:1102px;
+    height:107px;
+    margin-left: 444px;
+    margin-top: 211px;
+}
+
+.people5{
+    font-size: 28px;
+    text-align: left;
+    margin-left: 99px;
+    width:1369px;
+    height: 139px;
+    margin-top: 206px;
+}
+
+.people6{
+    font-size: 72px;
+    
+    color: #5691E9;
+    width: 1640px;
+    height:217px;
+    margin-left: 140px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.bt{
+    border: 2px solid #5691E9;
+    border-radius: 12px;
+    background-color: transparent;
+    width: 252px;
+    color: #5691E9;
+    height: 80px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 800px;
+    
+}
+
+.bt:hover{
+    background-color: #5691E9 ;
+    color: white;
+    transition: all 0.3s ease-out;
+    transition: 250ms;
+  }
