@@ -21,6 +21,7 @@ After you've determined which repository your bug is related to, create an issue
 5.Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem.
 
 - Pull Request Process
+
 In general, we follow the "fork-and-pull" Git workflow
 
 1. Fork the repository to your own Github account (https://github.com/madhukapulsara/kardia/fork)
