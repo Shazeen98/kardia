@@ -4,7 +4,7 @@ A big welcome and thanks for your interest in contributing! There are many ways 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
 **How Can I Contribute?**
-- Reporting Bugs
+- **Reporting Bugs**
 
 This section guides you through submitting a bug report for Kardia. Following these guidelines helps us understand your report, reproduce the behavior.
 
@@ -16,7 +16,7 @@ After you've determined which repository your bug is related to, create an issue
 4. Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
 5. Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem.
 
-- Pull Request Process
+- **Pull Request Process**
 
 In general, we follow the "fork-and-pull" Git workflow
 
