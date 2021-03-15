@@ -2,6 +2,9 @@
 import Info from '../Info'
 import Navbar from '../Navbar';
 import People from '../People';
+import Homebot from '../Homebot'
+import Footer from '../Footer'
+
 
 function Homepage(){
     return(
@@ -9,6 +12,8 @@ function Homepage(){
         <Navbar/>
         <Info/>
         <People/>
+        <Homebot/>
+        <Footer/>
         </div>
         
     )
