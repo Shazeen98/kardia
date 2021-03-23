@@ -1,0 +1,82 @@
+.sign-in{
+    color:black;
+    font-size: 32px;
+    margin-left: 700px;
+    margin-top: -510px;
+    text-align: center;
+}
+
+.txt-pa{
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.sign-text{
+    font-size: 18px;
+    color: black;
+    font-weight:bold;
+    margin-left: 700px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.list1{
+    margin-left: 700px;
+    margin-top: 100px;
+    text-align: left;
+
+}
+
+.formBasicEmail{
+    color: blue;
+}
+
+input{
+    width: 300px;
+    height: 35px;
+}
+label{
+    color: blue;
+    font: 1em sans-serif;
+    font-size: 20px;
+}
+
+.txt-right{
+
+    margin-left: 390px;
+    margin-top: -260px;
+}
+
+.sign-in-btn{
+
+    width: 300px;
+    height: 35px;
+    color:white;
+    background-color: blue;
+    margin-left: 192px;
+    margin-top: 20px;
+
+}
+
+
+
+
+.image3{
+    margin-left: 15px;
+}
+
+.pswd-label{
+    margin-left: 220px;
+}
+
+.user-name{
+    margin-left: 45px;
+}
+
+.confirm-label{
+    margin-left: 258px;
+}
+
+.re-pswd{
+    margin-left: 45px;
+}

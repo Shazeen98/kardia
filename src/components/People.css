@@ -1,0 +1,182 @@
+.people1{
+    
+    height: 2216px;
+    background-color: #E0E2EE;
+}
+
+.num1{
+    padding-left: 347px;
+    padding-right: 1195px;
+    width: 153px;
+    height: 180px;
+    color: #DF4835;
+    font-size: 180px;
+    text-align: left;
+    padding-top: 133px;
+}
+
+.people2{
+    font-size: 34px;
+    padding-left: 190px;
+    text-align: left;
+    
+    height: 143px;
+    padding-top:158px;
+    width: 693px;
+
+    
+    
+}
+
+.num2{
+    color:#DF4835 ;
+    font-size: 180px;
+    padding-left: 623px;
+    width:372px;
+    height: 150px;
+    margin-top: 173px;
+}
+
+.people3{
+    font-size: 34px;
+    padding-left: 650px;
+    text-align: left;
+    padding-top: 35px;
+
+
+}
+
+.img4{
+    
+    height:auto;
+    padding-left: 1074px;
+    margin-top: -700px;
+    width: 100%;
+  
+   
+}
+
+.people4{
+    font-size: 28px;
+    text-align: left;
+    padding-right: 374px;
+    height:107px;
+    padding-left: 444px;
+    padding-top: 211px;
+}
+
+.people5{
+    font-size: 28px;
+    text-align: left;
+    padding-left: 99px;
+    padding-right: 452px;
+    height: 139px;
+    padding-top: 506px;
+   
+}
+
+.people6{
+    font-size: 72px;
+    animation:cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: #5691E9;
+   
+    height:217px;
+    padding-left: 140px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.bt{
+    border: 2px solid #5691E9;
+    border-radius: 12px;
+    background-color: transparent;
+    margin-right: 694px;
+    color: #5691E9;
+    height: 80px;
+    width: 252px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 694px;
+    margin-top: 40px;
+    
+}
+
+.bt:hover{
+    background-color: #5691E9 ;
+    color: white;
+    transition: all 0.3s ease-out;
+    transition: 250ms;
+  }
+
+  @media screen and (max-width: 1260px) {
+    .people1{
+        width: 100%;
+        height: auto;
+    }
+
+    .people2,.num1,.num2,
+    .people3,.people5,.people6,.people4{
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    .img4{
+       
+        padding-left: 0%;
+        margin-top: -5%;
+      
+    }
+
+    .num2{
+        margin-top: 10%;
+        font-size: 120px;
+        margin-left: 30%;
+        width: 100%;
+    }
+
+    .num1{
+      font-size: 120px;
+      margin-left: 8%;
+    }
+
+    .people4{
+        margin-top: -20%;
+        padding-left: 5%;
+        padding-right: 5%;
+        
+    }
+
+    .people2{
+        margin-left: 6%;
+        width: 85%;
+        height: 100%;
+        margin-top: -7%;
+    }
+
+    .people3{
+        margin-left: 30%;
+        margin-top: -6%;
+    }
+
+    .people5{
+        margin-top: -30%;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    .people6{
+        font-size: 44px;
+        margin-top: 40%;
+    }
+
+    .bt{
+        margin-left: 35%;
+        margin-top: -7%;
+        padding-bottom: 5px;
+    }
+   
+  }
+
+ 
+ 
