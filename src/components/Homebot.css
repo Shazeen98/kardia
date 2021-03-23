@@ -7,12 +7,13 @@
     width: 705px;
     height:175px;
     color: #707070;
-    margin-left: 140px;
+    padding-left: 140px;
     margin-top: 400px;
 }
 
 .home-bot{
     height: 1400px;
+    background-color: white;
 }
 
 .bot-text2{
@@ -24,4 +25,13 @@
     margin-top: 10px;
     border: 1px solid #707070;
     padding: 22px;
+}
+
+@media screen and (max-width: 1260px) {
+    .bot-text{
+        width: 50%;
+        font-size: 42px;
+        padding-top: -20px;
+    }
+
 }

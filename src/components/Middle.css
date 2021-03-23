@@ -19,10 +19,7 @@
     margin-left: 116px;
     
 }
-.middle-container{
-    width: 1920px;
-    height: 1080px;
-}
+
 
 .image{
     margin-top: -540px;
@@ -48,7 +45,7 @@ margin-top: 85x;
 }
 
 .btn--primary{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 116px;
     width: 197px;
     height: 62px;

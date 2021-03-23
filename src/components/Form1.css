@@ -1,8 +1,8 @@
 .log-in{
     color:#0F43AA;
-    font-size: 62px;
+    font-size: 50px;
     margin-left: 1100px;
-    margin-top: -970px;
+    margin-top: -900px;
 }
 
 .cont{
@@ -13,15 +13,15 @@
 
 
 .log-text{
-    font-size: 28px;
-    color: black;
+    font-size: 22px;
+    color: rgb(12, 12, 12);
     font-weight:bold;
-    margin-left: 1100px;
+    margin-left: 1300px;
     margin-top: 20px;
 }
 .list1{
     margin-left: 700px;
-    margin-top: 90px;
+    margin-top: 100px;
     
 
 }
@@ -34,8 +34,8 @@
 .email-txt{
     width: 710px;
     height: 81.33px;
-    font-size: 28px;
-    border-radius: 0.8em;
+    font-size: 22px;
+    border-radius: 0.75em;
     border-color:#0F43AA ;
 
 }
@@ -43,15 +43,15 @@
 .pswd-txt{
     width: 710px;
     height: 81.33px;
-    font-size: 28px;
-    border-radius: 0.8em;
+    font-size: 22px;
+    border-radius: 0.75em;
     border-color:#0F43AA ;
 }
 
 .lbl{
     color: #0F43AA;
     font: 1em sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     margin-top: -100px;
 
 }
@@ -62,59 +62,85 @@
     height: 81.33px;
     color:white;
     background-color:#0F43AA;
-    font-size: 28px;
-    border-radius: 0.8em;
+    font-size: 22px;
+    border-radius: 0.75em;
+    border-color:#0F43AA ;
 
 }
 .p-reg{
-    font-size: 28px;
+    font-size: 22px;
     text-align: left;
     margin-top: 60px;
 }
 
 .image2{
-    margin-left: -80px;
+    padding-left: 5px;
+    width: 100%;
+    height: auto;
+    padding-right: 984px;
+    
 }
 .fb-sign-in{
     display: inline-block;
     margin-left: 1100px;
-   margin-top: 55px;
+    margin-top: 55px;
     width: 710px;
     height: 81.33px;
     color:white;
     background-color:#0F43AA;
-    font-size: 28px;
-    border-radius: 0.8em;
+    font-size: 22px;
+    border-radius: 0.75em;
+    border-color:#0F43AA ;
 
 
 }
 
 .or-text1{
-    margin-left: 1104px;
-    font-size: 30px;
+    margin-left: 1214px;
+    font-size: 22px;
     margin-top: 20px;
+    color: rgb(112, 112, 112);
 }
 
 
 
 .form-start{
-    width : 1920px;
+    
     height : 1080px;
 
 }
 .fa-times{
-    color: black;
+    color: rgb(17, 17, 17);
     font-size: 3rem;
-    margin-left: 1800px;
+    padding-left: 1800px;
     margin-top: 10px;
 
 }
 
 .create-acc{
     font-weight: bold;
-    font-size: 28px;
-    color: black;
+    font-size: 22px;
+    color: rgb(17, 17, 17);
    
 
 }
 
+.log-cont{
+    width: 100%
+}
+.fb-sign-in:hover,
+.btn-sign:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #0F43AA;
+    transition: 250ms;
+}
+
+@media screen and (max-width: 960px) {
+    .form-start{
+        width: 100%;
+
+    }
+    .image2{width: 50%;}
+    .log-cont{width: 50%}
+}

@@ -9,12 +9,30 @@
     border: none;
     cursor: pointer;
   }
+
+  .prdict-btn-f{
+    background-color:transparent;
+    color: #5E62D1;
+    border: 2px solid #5E62D1 ;
+    opacity: 1;
+    border-radius: 7px;
+    width: 113px;
+    height: 37px;
+    font-size: 22px;
+  }
+
+  .prdict-btn-f:hover{
+    color: black;
+    background-color:  #5E62D1;
+  }
+  
   
   .btn--primary {
-    background-color:blue;
+    background-color:#0F43AA;
     color: #242424;
-    
+    border: 1px solid #0F43AA ;
     color: ivory;
+    border-radius: 12px;
   }
   
   .btn--outline {
@@ -24,6 +42,8 @@
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
   }
+
+  
   
   .btn--medium {
     padding: 8px 20px;
@@ -42,3 +62,5 @@
     color: #242424;
     transition: 250ms;
   }
+
+  

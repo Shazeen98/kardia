@@ -1,3 +1,4 @@
+import React from 'react'
  import './Homepage.css'
 import Info from '../Info'
 import Navbar from '../Navbar';

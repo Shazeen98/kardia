@@ -43,7 +43,7 @@
   }
   
   .navbar-logo1 {
-    color:blue;
+    color:#0F43AA;
     justify-self: start;
     margin-left: 10px;
     cursor: pointer;
@@ -75,7 +75,7 @@
   }
   
   .nav-links1 {
-    color:blue;
+    color:#0F43AA;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -112,11 +112,11 @@
   }
   
   @media screen and (max-width: 960px) {
-    .NavbarItems {
+    .NavbarItems1 {
       position: relative;
     }
   
-    .nav-menu {
+    .nav-menu1 {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -128,7 +128,7 @@
       transition: all 0.5s ease;
     }
   
-    .nav-menu.active {
+    .nav-menu.active1 {
       background:white;
       left: 0;
       opacity: 1;
@@ -136,7 +136,7 @@
       z-index: 1;
     }
   
-    .nav-links {
+    .nav-links1 {
       text-align: center;
       padding: 10px;
       width: 100%;
@@ -144,20 +144,20 @@
       top: 70px;
     }
   
-    .nav-links:hover {
+    .nav-links1:hover {
       background-color: #fff;
       color: #242424;
       border-radius: 5;
     }
   
-    .navbar-logo {
+    .navbar-logo1 {
       position: absolute;
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
     }
   
-    .menu-icon {
+    .menu-icon1 {
       display: block;
       position: absolute;
       top: 0;
@@ -169,15 +169,15 @@
     }
   
     .fa-times {
-      color: blue;
+      color: #0F43AA;
       font-size: 2rem;
     }
 
     .fa-bars{
-        color:blue;
+        color:#0F43AA;
     }
   
-    .nav-links-mobile {
+    .nav-links-mobile1 {
       display: block;
       text-align: center;
       margin: 2rem auto;
@@ -185,14 +185,14 @@
       width: 100%;
       text-decoration: none;
       font-size: 1.5rem;
-      background-color:blue;
+      background-color:#0F43AA;
      
       padding: 24px 30px;
       border: 1px solid #fff;
       transition: all 0.3s ease-out;
     }
   
-    .nav-links-mobile:hover {
+    .nav-links-mobile1:hover {
       background: #fff;
       color: #242424;
       transition: 250ms;

@@ -1,0 +1,98 @@
+.About {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   ;
+}
+ 
+.head{
+  background-color: blueviolet;
+  color: cyan;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2% ;
+  width: 150px;
+  text-decoration-style: solid;
+}
+
+.intro{
+  padding-left:20%;
+  padding-right: 20%;
+  text-align: center,justify;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;;
+  color: blueviolet;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   ;
+}
+.bottom{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 44.8px;;
+  color: chocolate;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img{
+  padding-left: 20%;
+  position: center;
+}
+.log{
+  background-color: blueviolet;
+  color: white;
+   
+}
+.meetHeader{
+  padding-top: 5%;
+  padding-left: 5%;
+  color: cyan;
+  font-weight: bold;
+}
+.p1{
+  padding-left:5% ;
+  padding-top: 5%;
+}
+
+.p2{
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.p3{
+  padding-left:5% ;
+  padding-top: 5%;
+}
+ 
+.p4{
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+.p5{
+  padding-left:5% ;
+  padding-top: 5%;
+}
+.p6{
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.img{
+  border-radius: inherit;
+  width: 150px;
+}

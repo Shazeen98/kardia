@@ -1,0 +1,78 @@
+.block1{
+  display: flex;
+  padding-bottom: 50px;
+}
+.image-contact{
+ padding-left: 350px;
+}
+.title{
+  padding-top: 100px;
+  font-size: 50px;
+  padding-left: 30px;
+  color: blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.block2{
+  padding-top: 50px;
+}
+.topic{
+  padding-left: 450px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.paragraph{
+  padding-top: 20px;
+ padding-left: 450px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: blueviolet;
+}
+.rular{
+  color: blueviolet;
+  padding-left: 500px;
+  padding-top: 30px;
+   
+}
+
+.block3{
+  padding-top: 300px;
+}
+
+.contact-details{
+  padding-left: 950px;
+  color: blueviolet;
+
+}
+.email-txtt{
+  width: 500px;
+  height: 40px;
+ border-color:blueviolet ;
+}
+.textbox{
+ width: 500px;
+  height: 250px;
+ border-color:blueviolet ;
+ box-shadow: blueviolet;
+}
+
+.button{
+ padding-left: 1200px;
+ padding-top: 50px;
+
+  
+}
+.btn-submit{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: blueviolet;
+ background-color: cyan;
+ font-size: 20px;
+ border-color: cyan;
+ padding: 30px;
+ width: 250px;
+
+}
+
+.contact-form{
+ padding-bottom: 250px;
+}

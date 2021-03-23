@@ -3,7 +3,7 @@ import './Signin.css'
 import axios from "axios";
 import { Link } from 'react-router-dom'
 // import { setUserSession } from './Utils/Common';
-import { Button } from './Button';
+
 
 
 function Signin(props){
@@ -42,7 +42,7 @@ function Signin(props){
     }
 
     return(
-        <div className = "sign-in-page">
+        <div className = "sign-in-page" width="50%" height="auto">
             <div className="text-sign-page">
                 <Link to = '/home'>
                 <i className = " fas fa-times"/> 
