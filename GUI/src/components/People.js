@@ -6,25 +6,28 @@ function People(){
     return(
         <div className = "people1">
             <br/><br/>
-            <p className = "num1">
+            <div className = "num1">
                 18M
-            </p>
-            <p className = "people2">
+            </div>
+            <div className = "people2">
             people dies globally each year from Cardiovascular diseases (CVDs),
              making CVDs the number one cause of death globally.
-            </p>
-            <p className = 'num2'>
+            </div>
+            <div className = 'num2'>
                 31%
-            </p>
+            </div>
             <p className = "people3">
             of all global death
             </p>
-            <img className = "img4" src = "./Images/img4.png"/>
-            <p className="people4">
-            Cardiovascular diseases are set of diseases which involve the circulatory system.CVDs mainly exhibit 
+            <img className = "img4" src = "./Images/img4.png" width="788" height="746"/>
+            <div className="people4">
+                
+                Cardiovascular diseases are set of diseases which involve the circulatory system.CVDs mainly exhibit 
             as Heart failure. Heart failure can simply define as failure of the heart’s main function which is 
             to pump blood properly to the whole body.
-            </p>
+                
+            
+            </div>
             <p className="people5">
             Risk-stratification of heart failure patients for therapy and heart 
             implantation is a severe problem nowadays due to the lack of methods 
