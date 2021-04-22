@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="modern responsive website using html5,css3, jquery and bootstrap framwork">
+	<meta name="keywords" content="HTML5,CSS3,jQurey,Bootstrap,web Design,Web Development,Modern Website,Responsive Website,Dot Class">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>Welcome To KARDIA</title>
+
+	<!-- CSS -->
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon1.ico">
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<!-- style CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="css/animate/animate.css">
+	<!--magnific-popup-->
+	<link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
+	<!-- owl carousel CSS -->
+	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<!-- responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- End CSS -->
+
+	<!-- Scripts -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/wow/wow.min.js"></script>
+	<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<!--owl-carasol-->
+	<script src="js/owl-carousel/owl.carousel.min.js"></script>
+	<!--counter-->
+	<script src="js/counter/jquery.waypoints.min.js.js"></script>
+	<script src="js/counter/jquery.counterup.min.js.js"></script>
+	<!--easing-->
+	<script src="js/easing/jquery.easing.1.3.js"></script>
+	<!--for smoth scoring effect -->
+	<script src="js/custom.js"></script>
+	<!-- End Scripts -->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+	<script type="text/javascript">
+		function sendEmail(fullName,email,body) {
+			Email.send({
+				Host: "smtp.gmail.com",
+				Username: "team.iit.int.elligence@gmail.com",
+				Password: "Test123#",
+				To: "team.iit.int.elligence@gmail.com",
+				From: "team.iit.int.elligence@gmail.com",
+				Subject: "Email from " + email,
+				Body: "Full Name : " + fullName + "\n" + "Email : " +email
+						+ "\n" +"Message : " + body,
+			})
+					.then(function (message) {
+						alert("We sent your information successfully")
+					});
+		}
+
+	</script>
+
+	<script type="text/javascript">
+		function UserSite() {
+			window.location.href = 'https://kardia-user-site.vercel.app/login';
+		}
+	</script>
+
+</head>
+
+
+<body data-spy="scroll" data-target=".dotclass-top-nav" data-offset="65">
+
+	<!-- Header Section -->
+	<header>
+		<nav class="navbar dotclass-top-nav navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="dotclass-nav-wrapper">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dotclass-menu">
+							<span class="sr-only">Toggle nevigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#home">
+							<h3><span id="dothead">KARDIA</span></h3>
+						</a>
+					</div>
+					<div class="collapse navbar-collapse" id="dotclass-menu">
+						<ul class="nav navbar-nav">
+							<li><a class="smooth-scroll" href="#home">Home</a></li>
+							<li><a class="smooth-scroll" href="#about_kardia">About Kardia</a></li>
+							<li><a class="smooth-scroll" href="#about-us">About Us</a></li>
+							<li><a class="smooth-scroll" href="#team">Our Team</a></li>
+							<li><a class="smooth-scroll" href="#contact">Contact</a></li>
+							<li><a id="button_1" onclick="UserSite()" class="smooth-scroll">Login</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End Header -->
+
+	<!--home section-->
+	<section id="home">
+		<div id="home-cover" class="bg-parallax animated fadeIn">
+			<div id="home-content-box">
+				<div id="home-content-box-inner" class="text-center">
+
+					<div id="home-heading" class="animated zoomIn">
+						<h3>We're overdue<br/> for a revolution of predicting mortality.</h3>
+					</div>
+
+					<div id="home-btn" class="animated zoomIn">
+						<a id="button_3"  onclick="UserSite()" class="btn btn-lg btn-general btn-white smooth-scroll" title="view Our Work">Get Started</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr />
+	</section>
+	<!--End home section-->
+
+	<!--  About Kardia section-->
+	<section id="about_kardia">
+		<div id="testimonial-cover" class="bg-parallax">
+			<div class="content-box">
+				<div class="content-title content-title-white wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+					<h3> ABOUT KARDIA</h3>
+
+					<div class="content-title-underline"></div>
+				</div>
+
+				<div class="container">
+					<div class="row wow animated bounceInDown" data-wow-duration="1s" data-wow-delay=".5s">
+						<div class="col-md-12">
+							<div id="customers-testimonials" class="text-center owl-carousel owl-theme">
+
+								<div class="testimonials">
+									<blockquote class="text-center">
+										<p><b><font size="20px">18M</font></b> people dies globally each year from Cardiovascular diseases (CVDs), making CVDs the number one cause of death globally.</p>
+									</blockquote>
+								</div>
+
+								<div class="testimonials">
+									<blockquote class="text-center">
+										<p><b><font size="20px">31%</font></b> of all global death</p>
+									</blockquote>
+								</div>
+
+								<div class="testimonials">
+									<blockquote class="text-center">
+										<p>Cardiovascular diseases are set of diseases which involve the circulatory system.CVDs mainly exhibit as Heart failure. Heart failure can simply define as failure of the heart’s main function which is to pump blood properly to the whole body.</p>
+									</blockquote>
+								</div>
+
+								<div class="testimonials">
+									<blockquote class="text-center">
+										<p>Risk-stratification of heart failure patients for therapy and heart implantation is a severe problem nowadays due to the lack of methods to forecasting the mortality of heart failure patients manually by a physician or a doctor. Generally risk-stratification is done by calculating a risk score using medical history, lifestyle and crucial health indicators, manually. It is not accurate.</p>
+									</blockquote>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End About Kardiasection-->
+
+	<!-- About US section-->
+	<section id="about-us">
+		<div id="about-bg-diagonal" class="bg-parallax"></div>
+		<div class="contianer">
+			<div class="row">
+				<div class="col-md-4">
+					<div id="about-content-box">
+						<div id="about-content-box-outer">
+							<div id="about-content-box-inner">
+								<div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+									<br/>
+									<h3>We are Int Elligence</h3>
+									<div class="content-title-underline"></div>
+								</div>
+								<div id="about-desc" class="wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+									<p>We are Team Int Elligence, a group of undergraduate students from the Informatics Institute Of Technology(IIT). This project "Kardia" is carried out as part of our research conducted for the Software Development Group Project for the BEng (Hons) at Informatics Institute Of Technology(IIT), Sri Lanka.affiliated with the University of Westminster, UK.</p>
+									<p><b><blockquote class="text-center">
+										None of us,including me.ever do great things.
+But we can all do smart things,with great love,
+and together we can do something wonderful.</blockquote><b/>
+									</p>
+									<br/>
+									<h3>By predicting heart failure patient will survive or not, Kardia can act as a supporting tool for doctors.</h3>
+								</div>
+								<div id="about-btn" class="wow animated fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+									<a id="button_2" onclick="UserSite()" class="btn btn-lg btn-general btn-blue smooth-scroll" role="button" title="Get Started">Try KARDIA</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End about section-->
+
+	<!--team section-->
+	<section id="team">
+
+		<div class="content-box">
+			<div class="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+				<h3>Our Team</h3>
+
+				<div class="content-title-underline"></div>
+			</div>
+
+			<div class="container">
+				<div class="row wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+					<div class="col-md-12">
+						<div id="team-members" class="owl-carousel owl-theme">
+							<div class="team-member">
+								<img src="img/team/team-1.jpg" class="img-responsive" alt="team-member">
+								<div class="team-member-info text-center">
+									<h4 class="team-member-name">Malitha Pahasara</h4>
+									<h4 class="team-member-designation">Member</h4>
+									<ul class="social-list">
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-google"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-member">
+								<img src="img/team/team-2.jpg" class="img-responsive" alt="team-member">
+								<div class="team-member-info text-center">
+									<h4 class="team-member-name">Madhuka Pulsara</h4>
+									<h4 class="team-member-designation">Member</h4>
+									<ul class="social-list">
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-google"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-member">
+								<img src="img/team/team-3.jpg" class="img-responsive" alt="team-member">
+								<div class="team-member-info text-center">
+									<h4 class="team-member-name">Yeheni Dahanayake</h4>
+									<h4 class="team-member-designation">Member</h4>
+									<ul class="social-list">
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-google"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-member">
+								<img src="img/team/team-4.jpg" class="img-responsive" alt="team-member">
+								<div class="team-member-info text-center">
+									<h4 class="team-member-name">Mohammed Shazeen</h4>
+									<h4 class="team-member-designation">Member</h4>
+									<ul class="social-list">
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-google"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-member">
+								<img src="img/team/team-5.jpg" class="img-responsive" alt="team-member">
+								<div class="team-member-info text-center">
+									<h4 class="team-member-name">Kalani Liyanagama</h4>
+									<h4 class="team-member-designation">Member</h4>
+									<ul class="social-list">
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-google"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="team-member">
+								<img src="img/team/team-6.jpg" class="img-responsive" alt="team-member">
+								<div class="team-member-info text-center">
+									<h4 class="team-member-name">Thresha Herath</h4>
+									<h4 class="team-member-designation">Member</h4>
+									<ul class="social-list">
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="social-icon icon-gray">
+												<i class="fa fa-google"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End team section-->
+
+	
+	<!-- Footer -->
+	<footer>
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="contact-left">
+							<h3></h3>
+							<p>None of us,including me.ever do great things.
+But we can all do smart things,with great love,
+and together we can do something wonderful</p>
+							<div id="contact-info">
+								<address>
+									<strong>Headquarters:</strong><br>
+									<p>57, Ramakrishna Road, <br/> Colombo 06, <br/> Sri Lanka </p>
+								</address>
+								<div id="phone-fax-email">
+									<p>
+										<strong>Phone:</strong>
+										<span> +94-77-148-3381 </span><br>
+										<span> +94-71-036-5150 </span><br>
+										<strong>Email:</strong><span> team.iit.int.elligence@gmail.com</span><br>
+									</p>
+								</div>
+
+							</div>
+							<div>
+								<ul class="social-list ">
+									<li><a href="#" class="social-icon icon-white">
+											<i class="fa fa-facebook"></i></a></li>
+									<li><a href="#" class="social-icon icon-white">
+											<i class="fa fa-twitter"></i></a></li>
+									<li><a href="#" class="social-icon icon-white">
+											<i class="fa fa-google-plus"></i></a></li>
+									<li><a href="#" class="social-icon icon-white">
+											<i class="fa fa-play"></i></a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="contact-right">
+							<h3>Contact Us</h3>
+							<form name="myForm" action="javascript:valid()" onsubmit="return validateForm()" method="post">
+								<input type="text" name="Full-name" placeholder="Full Name" class="form-control">
+								<input type="email" name="Email-Address" placeholder="Email Address" class="form-control">
+								<textarea rows="5" name="message" placeholder="Message..." class="form-control"></textarea>
+							    <input type="submit" value="Sent" id="send-btn">
+			
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-bottom">
+
+			<div class="container">
+				<div class="col-md-6">
+					<div id="footer-copyright">
+						<p>Copyright &copy; 2021 All Right Reserved by Team KARDIA</p>
+					</div>
+				</div>
+				<div class="col-md-6 hidden-sm hidden-xs">
+					<div id="footer-menu">
+						<ul>
+							<li><a class="smooth-scroll" href="#home">Home</a></li>
+							<li><a class="smooth-scroll" href="#about_kardia">About Kardia</a></li>
+							<li><a class="smooth-scroll" href="#about-us">About Us</a></li>
+							<li><a class="smooth-scroll" href="#team">Our Team</a></li>
+							<li><a class="smooth-scroll" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top smooth-scroll  hidden-xs" title="home" role="button"><i class="fa fa-angle-up"></i></a>
+	</footer>
+	<!-- End Footer -->
+
+</body>
+</html>
