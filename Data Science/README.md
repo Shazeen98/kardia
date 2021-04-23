@@ -1,5 +1,7 @@
 # KARDIA-prediction-model
 
+## Check requirements [here](https://github.com/Shazeen98/kardia/blob/main/Data%20Science/requirements.txt)
+
 ### Model deployed Link
  
     https://kardia-predict-model.herokuapp.com/
