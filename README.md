@@ -40,8 +40,8 @@ We are team Int Elligence, a group of undergraduate students from the Informatic
 *our members*
 
 - [Kalani Liyanagama](https://github.com/kalaniliyanagama)
-- [Madhuka Pulsara](https://github.com/madhukapulsara)
-- [Malitha Pahasara](https://github.com/malithapahasara)
+- [Madhuka Pulsara](https://github.com/akidnamedmad)
+- [Malitha Pahasara](https://github.com/a-nowhereman)
 - [Mohammed Shazeen](https://github.com/Shazeen98)
 - [Thresha Herath](https://github.com/ThreshaK)
 - [Yeheni Dahanayake](https://github.com/Yeheni99)
